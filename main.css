@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0; */
+    background: radial-gradient(circle, transparent 50%, black 150%);
+  
+}
+
+#count {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15vmin;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
